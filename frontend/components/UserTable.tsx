@@ -86,7 +86,7 @@ export default function UserTable() {
                 <td className="td">{u.firstName}</td>
                 <td className="td">{u.email}</td>
                 <td className="td">{u.group?.name || "Без группы"}</td>
-                <td className="td text-right">
+                <td className="td text-left">
                   <Link href={`/users/${u.id}`} className="btn">Открыть</Link>
                 </td>
               </tr>
