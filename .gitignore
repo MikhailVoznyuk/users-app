@@ -1,0 +1,12 @@
+/shelf/
+/workspace.xml
+
+/httpRequests/
+
+/dataSources/
+/dataSources.local.xml
+
+node_modules
+.next
+dist
+*.log
